@@ -465,13 +465,17 @@ body{
 
 
   .commWorkDivDown{
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
+    /* padding-left: 5.5rem; */
+    /* padding-right: 5.5rem; */
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 10rem;
   }
   .commWorkDiv{
-    padding-left: 5.5rem;
-    padding-top: 8rem;
+    /* padding-left: 5.5rem; */
+    padding-left: 0;
+    /* padding-top: 8rem; */
+    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .commWorkDown{
@@ -481,27 +485,35 @@ body{
     display: block;
   } 
   .commWorkSpan2{
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 4rem;
   } 
   .commWorkSpan3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
-    font-size: 3rem;
-    padding-top: 3rem;  
+    /* font-size: 3rem; */
+    font-size: 4rem;
+    /* padding-top: 3rem;   */
+    padding-top: 2rem;
   }
   .commWork{
     line-height: 4.5rem;
+    line-height: 3rem;
     font-size: 3.9rem;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 4rem;
+    /* padding-top: 3rem; */
+    padding-top: 2rem;
+    /* padding-left: 3rem; */
+    padding-left: 2rem;
+    /* padding-right: 4rem; */
     margin-bottom: 3.5rem;
     box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
   }
   .commWorkUp{
-    line-height: 4.5rem;
-    font-size: 4rem;
+    /* line-height: 4.5rem; */
+    line-height: 2rem;
+    /* font-size: 4rem; */
+    font-size: 5rem;
     font-weight: 585;
   }
   .hover-reveal img {
@@ -528,13 +540,13 @@ body{
     line-height: 3.8rem;
   }
   .link{
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-size: 4rem;
-    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 5rem;
+    padding-top: 2rem;
     border-bottom: 0.37rem solid black;
     font-weight: 578;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
   .link:hover{
     color: #B23A48;
@@ -542,8 +554,8 @@ body{
   }
   
   .headingWork {
-    padding-bottom: 9rem;
-    padding-top: 9rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
     font-family: Anton;
     font-style: normal;
     padding-left: 4.5rem;
