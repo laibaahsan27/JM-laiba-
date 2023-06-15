@@ -11,21 +11,26 @@
         <!-- nav bar starts -->
         <div class="nav">
             <div class="header">
-                <div class="hov">
-                <span class="jm">J</span><span class="aa">AGRITI</span> <br>
+              <div class="hov"><a href="/static/index.html">
+                <span class="jm">J</span><span class="aa">AGRITI</span> <br />
                 <span class="jm la">M</span><span class="aa">ALHOTRA</span>
-                </div>
+              </a>
+              </div>
             </div>
-            <nav class="navRight">
-                <ul class="nav-links">
-                    <li><a class="work" href="">WORK</a></li>
-                    <li><a class="workNav" href="">ABOUT</a></li>
-                    <li><a class="workNav" href="">EXPERIENCE</a></li>
-                    <li><a class="workNav" href="">CONTACT</a></li>
-                </ul>
+            <nav>
+              <ul class="nav-links">
+                <li><a href="./html/work_page.html">WORK</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li class="exp"><a href="#work">EXPERIENCE</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
             </nav>
-            <span class="workNavSpecial">M</span>
-        </div>
+            <div class="mobile-navbar-btn">
+              <ion-icon name="menu-outline" class="mobile-nav-icon teen"></ion-icon>
+              <ion-icon name="close-outline" class="mobile-nav-icon cross"></ion-icon>
+              
+            </div>
+          </div>
         <!-- nav bar ends -->
        
 
@@ -220,5 +225,9 @@
           </div>
           
         <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./navbar.js"></script>
     </body>
 </html>
