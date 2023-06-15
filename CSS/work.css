@@ -87,8 +87,10 @@ a{
 }
 
 .mobile-nav-icon{
-  width: 2.5rem;
-  height: 2.5rem;
+  /* width: 2.5rem;
+  height: 2.5rem; */
+  /* width: 9.5rem;
+  height: 9.5rem; */
 }
 
 .mobile-navbar-btn{
@@ -99,7 +101,95 @@ a{
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
-@media (max-width:62em) {
+@media(max-width:30em){
+  .mobile-nav-icon{
+    /* width: 5rem;
+    height: 5rem; */
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  .nav{
+    position: relative;
+}
+.mobile-navbar-btn{
+    display: block;
+    z-index: 999;
+    
+}
+.cross{
+    color: #FFFFFF;
+}
+.teen{
+    color: #B23A48;
+}
+nav{
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    background-color: #8C2F39;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.nav-links li a{
+    color: #fff;
+    font-size: 50px;
+    line-height: 100px;
+}
+.exp{
+    margin-left: 20px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.activ nav{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+}
+.activ .mobile-navbar-btn .mobile-nav-icon[name="close-outline"]{
+    display: block;
+}
+.activ .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"]{
+    display: none;
+}
+.activu .button {
+    visibility: hidden;
+    display: none;
+}
+.sTwoParent{
+    display: block;
+}
+.st-mp{
+    display: none;
+}
+.nav{
+  padding: 24px 30px 32px 30px ;
+}
+}
+@media (max-width:62em) and (min-width:31em){
+  .mobile-nav-icon{
+    width: 5rem;
+    height: 5rem;
+    /* width: 9.5rem;
+    height: 9.5rem; */
+  }
   .nav{
       position: relative;
   }
@@ -170,6 +260,9 @@ a{
   }
   .st-mp{
       display: none;
+  }
+  .nav{
+    padding: 24px 70px 32px 70px ;
   }
 
 }
@@ -523,12 +616,12 @@ a{
     text-decoration: none;
     }
     
-        .social-img {
+    .social-img {
       display: none;
     }
     /* For tablet */
     @media (min-width: 601px) and (max-width: 961px){
-      .f-links {
+    .f-links {
         display: none;
     }
     .fh, .rem {
@@ -633,72 +726,51 @@ a{
     width: 100%;
     overflow-x: hidden;
   }
-  .navRight{
-    display: none;
-  }
-
   .commWorkHeading1{
-    /* font-size: 4rem; */
     font-size: 5rem;
  
   }
   .commWorkHeading2{
-    /* font-size: 4rem; */
     font-size: 5rem;    
   }
 
 
   .commWorkDivDown{
-    /* padding-left: 5.5rem; */
-    /* padding-right: 5.5rem; */
     padding-left: 3rem;
     padding-right: 3rem;
-    /* padding-bottom: 10rem; */
     padding-bottom: 7rem;
   }
   .commWorkDiv{
-    /* padding-left: 5.5rem; */
     padding-left: 3rem;
-    /* padding-top: 8rem; */
     padding-top: 4rem;
-    /* padding-bottom: 4rem; */
     padding-bottom: 1rem;
   }
   .commWorkDown{
-    /* padding-left: 3rem; */
     padding-top: 1rem;
     font-weight: 400;
     display: block;
   } 
   .commWorkSpan2{
-    /* font-size: 3rem; */
     font-size: 4.5rem;
   } 
   .commWorkSpan3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 550;
-    /* font-size: 3rem; */
     font-size: 4rem;
-    /* padding-top: 3rem;   */
     padding-top: 2rem;
   }
   .commWork{
-    /* line-height: 4.5rem; */
     line-height: 3rem;
     font-size: 3.9rem;
-    /* padding-top: 3rem; */
     padding-top: 2rem;
-    /* padding-left: 3rem; */
     padding-left: 1.5rem;
     padding-right: 4rem;
     margin-bottom: 3.5rem;
     box-shadow: rgba(157, 156, 156, 0.3) .5rem .6rem .8rem .4rem;
   }
   .commWorkUp{
-    /* line-height: 4.5rem; */
     line-height: 3rem;
-    /* font-size: 4rem; */
     font-size: 5rem;
     font-weight: 585;
   }
@@ -744,7 +816,7 @@ a{
     padding-top: 4rem;
     font-family: Anton;
     font-style: normal;
-    padding-left: 4.5rem;
+    padding-left: 30px;
   }
   
   .workNavSpecial{
@@ -755,19 +827,6 @@ a{
     text-decoration:  none;
     font-size: 5rem;
   }
-  .nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    padding-top: 5rem;
-    padding-bottom: 0;
-    padding-left: 7rem;
-    padding-right: 7rem;
-}
-.header{
-  font-size: 3.5rem;
-}
 
 .TWT{
   display: none;
@@ -795,9 +854,6 @@ a{
     height: auto;
     width: 100%;
     overflow-x: hidden;
-  }
-  .navRight{
-    display: none;
   }
 
   .headingWork{
@@ -906,19 +962,6 @@ a{
     text-decoration:  none;
     font-size: 5rem;
   }
-  .nav{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    padding-top: 5rem;
-    padding-bottom: 0;
-    padding-left: 7rem;
-    padding-right: 7rem;
-}
-.header{
-  font-size: 3.5rem;
-}
 
 .TWT{
   display: none;
