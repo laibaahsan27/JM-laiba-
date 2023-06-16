@@ -678,7 +678,7 @@ nav{
     }
     .footer-first {
       display: block;
-      padding: 15rem 0;
+      padding: 6rem 0;
     }
     .name {
       overflow-y: hidden;
@@ -716,7 +716,7 @@ nav{
     #nl-subtext {
       font-size: 16px;
       margin-left: 20px;
-      line-height: 6rem;
+      /* line-height: 6rem; */
     }
     .data input {
       width: 250px;
