@@ -516,11 +516,14 @@ text-align: left;
   .data{
       display: flex;
   }
+  input::placeholder {
+    font-size: 23px;
+}
   .button{
     width: 85px;
     height:35px;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 16px;
     padding: 0;
     margin-left: 6px;
   }
@@ -534,10 +537,11 @@ text-align: left;
     font-family: "Roboto";
     font-weight: 300;
     margin-left: 45px;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding-top: 6px;
   }
+
 
   .footer-first {
     display: block;
