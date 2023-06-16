@@ -650,26 +650,40 @@ nav{
       .socials {
         display: none;
     }
+    .data{
+        display: flex;
+    }
     .button{
-      width: 90px;
-      height:40px;
+      width: 85px;
+      height:35px;
       border-radius: 7px;
+      font-size: 15px;
+      padding: 0;
+      margin-left: 6px;
+    }
+    .data input {
+      width: 210px;
+      height: 29.6px;
     }
     input{
-      height: 40px;
       border: 0;
       border-radius: 7px;
       font-family: "Roboto";
-      font-size: 18px;
       font-weight: 300;
+      margin-left: 45px;
+      font-size: 15px;
+      text-align: center;
+      padding-top: 6px;
     }
+  
     .footer-first {
       display: block;
-      padding: 6rem 0;
+      padding-bottom: 4rem;
+      padding-top: 2rem;
     }
     .name {
       overflow-y: hidden;
-      margin-left: 50px;
+      margin-left: 40px;
       margin-bottom: 60px;
     }
     .fh {
@@ -679,6 +693,9 @@ nav{
       color: white;
       text-decoration: none;
       line-height: 28px;
+    }
+    .lap{
+      padding-left: 0.7rem;
     }
     .rem {
       color: white;
@@ -699,21 +716,24 @@ nav{
       font-size: 24px;
       line-height: 28px;
       font-family: "Oswald";
+      padding-left: 5px;
+      padding-right: 0px;
     }
     #nl-subtext {
       font-size: 16px;
-      padding-left: 30px;
-      padding-right: 30px;
       /* margin-left: 20px; */
-      /* line-height: 6rem; */
-    }
-    .data input {
-      width: 200px;
+      padding-left: 45px;
+        padding-right: 45px;
+        line-height: 1rem;
+        text-align: left;
+        padding-top: 20px;
+        margin-bottom: 20px;
     }
     .social-img {
       display: revert;
     }
     }
+  
 /* responsive starts here */
 
 @media (max-width: 600px){

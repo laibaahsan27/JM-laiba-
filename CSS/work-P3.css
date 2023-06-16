@@ -526,7 +526,7 @@ text-align: left;
     margin-left: 6px;
   }
   .data input {
-    width: 202px;
+    width: 210px;
     height: 29.6px;
   }
   input{
@@ -591,6 +591,7 @@ text-align: left;
       line-height: 1rem;
       text-align: left;
       padding-top: 20px;
+      margin-bottom: 20px;
   }
   .social-img {
     display: revert;
