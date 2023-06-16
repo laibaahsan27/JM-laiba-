@@ -79,19 +79,11 @@ a{
 }
 .nav-links li a:hover{
   color:white;
-  /* border: 1px solid #8C2F39; */
-  /* -webkit-text-stroke: 5px solid #8C2F39; */
   transition: 0.3s ease-in-out;
   text-shadow: 1px 0 #8C2F39, -1px 0 #8C2F39, 0 1px #8C2F39, 0 -1px #8C2F39,
              1px 1px #8C2F39, -1px -1px #8C2F39, 1px -1px #8C2F39, -1px 1px #8C2F39;
 }
 
-.mobile-nav-icon{
-  /* width: 2.5rem;
-  height: 2.5rem; */
-  /* width: 9.5rem;
-  height: 9.5rem; */
-}
 
 .mobile-navbar-btn{
   display: none;
@@ -101,10 +93,13 @@ a{
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
+.nav.activ {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
 @media(max-width:30em){
   .mobile-nav-icon{
-    /* width: 5rem;
-    height: 5rem; */
     width: 6rem;
     height: 6rem;
   }
@@ -123,21 +118,17 @@ a{
     color: #B23A48;
 }
 nav{
-    /* display: none; */
     width: 100%;
     height: 100vh;
     background-color: #8C2F39;
     position: absolute;
     top: 0;
     left: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
     transform: translateX(100%);
     transition: all 0.3s linear;
-
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -663,12 +654,11 @@ nav{
         display: none;
     }
     .button{
-      width: 110px;
-      height:27px;
+      width: 90px;
+      height:40px;
       border-radius: 7px;
     }
     input{
-      width: 40rem;
       height: 40px;
       border: 0;
       border-radius: 7px;
@@ -715,11 +705,13 @@ nav{
     }
     #nl-subtext {
       font-size: 16px;
-      margin-left: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      /* margin-left: 20px; */
       /* line-height: 6rem; */
     }
     .data input {
-      width: 250px;
+      width: 200px;
     }
     .social-img {
       display: revert;

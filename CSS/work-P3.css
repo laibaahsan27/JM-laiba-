@@ -7,7 +7,11 @@
     padding: 0;
 }
 /* NAV BAR */
-
+.nav.activ {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+}
 .header span, ul li a{
   font-family: 'Anton', sans-serif;
   font-weight: 400;
@@ -506,9 +510,13 @@ text-align: left;
     .socials {
       display: none;
   }
+  .button{
+    width: 90px;
+    height:40px;
+    border-radius: 7px;
+  }
   input{
     width: 40rem;
-    height: 40px;
     border: 0;
     border-radius: 7px;
     font-family: "Roboto";
@@ -517,7 +525,7 @@ text-align: left;
   }
   .footer-first {
     display: block;
-    padding: 6rem 0;
+    padding: 4rem 0;
   }
   .name {
     overflow-y: hidden;
@@ -554,10 +562,12 @@ text-align: left;
   }
   #nl-subtext {
     font-size: 16px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    padding-left: 30px;
+      padding-right: 30px;
   }
   .data input {
-    width: 250px;
+    width: 200px;
   }
   .social-img {
     display: revert;
