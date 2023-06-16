@@ -676,12 +676,12 @@ nav{
       margin-left: 45px;
       text-align: center;
       font-size: 20px;
-      padding-top: 6px;
+      padding-top: 5px;
     }
   
     .footer-first {
       display: block;
-      padding-bottom: 4rem;
+      padding-bottom: 5.5rem;
       padding-top: 2rem;
     }
     .name {
@@ -727,7 +727,7 @@ nav{
       /* margin-left: 20px; */
       padding-left: 45px;
         padding-right: 45px;
-        line-height: 3rem;
+        line-height: 2rem;
         text-align: left;
         padding-top: 20px;
         margin-bottom: 20px;
