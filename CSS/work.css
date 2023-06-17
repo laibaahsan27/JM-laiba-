@@ -12,7 +12,6 @@ html{
   overflow-x: hidden;
   font-size: 62.5%;
 }
-
 *{
     padding: 0;
     margin: 0;
@@ -404,27 +403,27 @@ nav{
     padding: 6rem 0;
     align-items: center;
   }
-  .fh{
+  /* .fh{
   font-family: "Oswald";
   font-size: 4rem;
   font-weight: 600;
   color: white;
   text-decoration: none;
   line-height: 4.5rem;
-  }
+  } */
   .footer{
     background-color: #8C2F39;
     overflow-y: hidden;
   
   }
-  .rem{
+  /* .rem{
     color: white;
     opacity:60%;
     font-family: "Oswald";
-  font-size: 4rem;
-  font-weight: 600;
-  text-decoration: none;
-  }
+    font-size: 4rem;
+    font-weight: 600;
+    text-decoration: none;
+  } */
   .name:hover .rem{
     color: white;
     opacity:100%;
@@ -462,29 +461,28 @@ nav{
   #nl-subtext{
     color: #C5C5C5;
     font-family: "Roboto";
-  font-size: 2.1rem;
-  line-height: 2.8rem;
-  letter-spacing: 0rem;
-  margin-bottom: 1rem;
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+    letter-spacing: 0rem;
+    margin-bottom: 1rem;
   }
   input{
     width: 40rem;
-      height: 4rem;
-      border: 0;
-      border-radius: .7rem;
+    height: 4rem;
+    border: 0;
+    border-radius: .7rem;
     font-family: "Roboto";
-  font-size: 1.8rem;
-  font-weight: 300;
+    font-size: 1.8rem;
+    font-weight: 300;
   }
   input::placeholder{
     padding-left: 1rem;
     font-family: "Roboto";
-  font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 2.8rem;
-  letter-spacing: 0em;
-  text-align: left;
-  
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+    letter-spacing: 0em;
+    text-align: left;
   }
   .btn{
     display: inline-block;
@@ -495,7 +493,6 @@ nav{
   
   .button {
     display: inline-block;
-  
     padding: .9rem 2.4rem;
     border: .1rem solid #ffffff;
     border-radius: 1.1rem;
@@ -508,7 +505,6 @@ nav{
     z-index: 1;
     background-color: #8C2F39;
    }
-   
    .button:before {
     content: "";
     position: absolute;
@@ -547,7 +543,6 @@ nav{
    
    .button:hover {
     color:#8C2F39;
-    ;
     border: .1rem solid #ffffff;
    }
    
@@ -585,31 +580,27 @@ nav{
   .socials svg{
     margin-bottom: .4rem;
   }
-
-  
-
-   .fh{
+  .fh{
     font-family: "Anton";
     font-size: 40px;
     font-weight: 600;
     color: white;
     text-decoration: none;
     line-height: 45px;
-    }
-    .rem{
-      color: white;
-      opacity:60%;
-      font-family: "Anton";
+  }
+  .rem{
+    color: white;
+    opacity:60%;
+    font-family: "Anton";
     font-size: 40px;
     font-weight: 600;
     text-decoration: none;
-    }
-    
-    .social-img {
-      display: none;
-    }
+  }
+  .social-img {
+    display: none;
+  }
     /* For tablet */
-    @media (min-width: 601px) and (max-width: 961px){
+  @media (min-width: 601px) and (max-width: 961px){
     .f-links {
         display: none;
     }
@@ -664,7 +655,7 @@ nav{
     }
     input::placeholder {
       font-size: 23px;
-  }
+    }
     .data input {
       width: 210px;
       height: 31px;
@@ -736,7 +727,7 @@ nav{
     .social-img {
       display: revert;
     }
-    }
+  }
   
 /* responsive starts here */
 
@@ -857,12 +848,12 @@ nav{
     font-size: 5rem;
   }
 
-.TWT{
-  display: none;
-}
-.hover-reveal{
-  display: none;
-}
+  .TWT{
+    display: none;
+  }
+  .hover-reveal{
+    display: none;
+  }
 }
 
 
@@ -992,10 +983,10 @@ nav{
     font-size: 5rem;
   }
 
-.TWT{
-  display: none;
-}
-.hover-reveal{
-  display: none;
-}
+  .TWT{
+    display: none;
+  }
+  .hover-reveal{
+    display: none;
+  }
 }
