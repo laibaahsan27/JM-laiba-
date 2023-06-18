@@ -11,11 +11,11 @@ html,body{
   overflow-x: hidden;
 }
 /* nav bar starts */
-/* .nav.activ {
+.nav.activ {
   position: fixed;
   width: 100%;
   z-index: 100000;
-} */
+}
 .header span, ul li a{
   font-family: 'Anton', sans-serif;
   font-weight: 400;
@@ -112,7 +112,7 @@ nav{
   background-color: #8C2F39;
   position: absolute;
   top: 0;
-  left: 0;
+  /* left: 0; */
 
   display: flex;
   justify-content: center;
