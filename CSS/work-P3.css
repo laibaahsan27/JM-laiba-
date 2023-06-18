@@ -233,6 +233,9 @@ nav{
   }
 
 } */
+.activ{
+  height: 100vh;
+}
 .header span,
 ul li a {
   font-family: "Anton", sans-serif;

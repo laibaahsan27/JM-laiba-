@@ -235,6 +235,9 @@ nav{
   }
 
 } */
+.activ{
+  height: 100vh;
+}
 .header span,
 ul li a {
   font-family: "Anton", sans-serif;
@@ -289,7 +292,7 @@ a {
   color: white;
   /* border: 1px solid #8C2F39; */
   /* -webkit-text-stroke: 5px solid #8C2F39; */
-  transition: 0.3s ease-in-out;
+  /* transition: 0.1s; */
   text-shadow: 1px 0 #8c2f39, -1px 0 #8c2f39, 0 1px #8c2f39, 0 -1px #8c2f39,
     1px 1px #8c2f39, -1px -1px #8c2f39, 1px -1px #8c2f39, -1px 1px #8c2f39;
 }
