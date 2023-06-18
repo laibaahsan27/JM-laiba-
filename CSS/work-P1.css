@@ -12,6 +12,7 @@ html,body{
 }
 /* nav bar starts */
 .nav.activ {
+  height: 100vh;
   position: fixed;
   width: 100%;
   z-index: 100000;
@@ -52,7 +53,9 @@ a{
   padding-top: 24px;
   padding-bottom: 32px;
 }
-
+.activ{
+  height: 100vh;
+}
 .nav-links{
   list-style: none;
 }
@@ -69,7 +72,7 @@ a{
   color:white;
   /* border: 1px solid #8C2F39; */
   /* -webkit-text-stroke: 5px solid #8C2F39; */
-  transition: 0.3s ease-in-out;
+  /* transition: 0.01s ; */
   text-shadow: 1px 0 #8C2F39, -1px 0 #8C2F39, 0 1px #8C2F39, 0 -1px #8C2F39,
              1px 1px #8C2F39, -1px -1px #8C2F39, 1px -1px #8C2F39, -1px 1px #8C2F39;
 }
